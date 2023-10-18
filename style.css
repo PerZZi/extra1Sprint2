@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./ResourceDeVacaciones/wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.cajon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: 50vh;
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: center;
+}
+
+#imagen1{
+    width: 15rem;
+}
+
+#imagen2{
+    width: 15rem;
+}
+
+#imagen3{
+    width: 15rem;
+}
+
+#imagen4{
+    width: 15rem;
+}
+
+#imagen5{
+    width: 15rem;
+}
